@@ -14,6 +14,7 @@ pversion = value_for_platform(
 default["percona"]["apt"]["key"] = "0x1C4CBDCDCD2EFD2A"
 default["percona"]["apt"]["keyserver"] = "hkp://keys.gnupg.net:80"
 default["percona"]["apt"]["uri"] = "http://repo.percona.com/apt"
+default["percona"]["apt"]["key_proxy"] = ""
 
 default["percona"]["yum"]["description"] = "Percona Packages"
 default["percona"]["yum"]["baseurl"] = "http://repo.percona.com/centos/#{pversion}/os/#{arch}/"

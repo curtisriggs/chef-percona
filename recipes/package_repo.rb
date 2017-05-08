@@ -22,6 +22,7 @@ when "debian"
     components ["main"]
     keyserver node["percona"]["apt"]["keyserver"]
     key node["percona"]["apt"]["key"]
+    key_proxy node["percona"]["apt"]["key_proxy"]
   end
 
 when "rhel"

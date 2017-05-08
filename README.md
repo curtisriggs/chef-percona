@@ -254,6 +254,7 @@ default["percona"]["main_config_file"] = value_for_platform_family(
   "rhel" => "/etc/my.cnf"
 )
 default["percona"]["apt"]["keyserver"] = "hkp://keys.gnupg.net:80"
+default["percona"]["apt"]["key_proxy"] = ""
 default["percona"]["encrypted_data_bag"] = "passwords"
 default["percona"]["encrypted_data_bag_secret_file"] = ""
 default["percona"]["use_chef_vault"] = false
